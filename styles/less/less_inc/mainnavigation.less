@@ -1,0 +1,26 @@
+.mainnavigation{
+    padding-left:0px;
+    margin-left:0px;
+    
+    li{
+        display:inline-block;
+        text-align:center;
+        width:calc(~"100% / 7");
+
+        &:not(:first-child){
+            margin-left:-4px;
+        }
+
+        a{
+            display:block;
+            padding:0 15px;
+            line-height:50px;
+            
+            .fa{
+                &.fa-home{
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}
