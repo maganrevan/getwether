@@ -64,7 +64,7 @@
                         </div>
                     </div>
                 </div>
-                {if isset($debug) && isset($smarty.session.user)}
+                {if isset($debug)}
                     <script type="text/javascript">
                     var debug = {$debug}
                     console.log(debug);
